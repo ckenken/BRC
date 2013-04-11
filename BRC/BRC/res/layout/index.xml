@@ -48,7 +48,6 @@
         android:layout_alignBottom="@+id/button_register"
         android:layout_alignRight="@+id/password"
         android:background="#CCCCCCCC"
-        android:onClick="password_forget"
         android:text="@string/password_forget" />
 
     <EditText
@@ -87,8 +86,7 @@
         android:layout_alignLeft="@+id/password"
         android:layout_below="@+id/password"
         android:layout_marginTop="29dp"
-        android:background="#CCCCCCCC"
-        android:onClick="login"
+        android:background="#CCCCCCCC"       
         android:text="@string/login" />
 
 </RelativeLayout>

@@ -54,7 +54,6 @@
         android:layout_below="@+id/forget_mail"
         android:layout_marginTop="33dp"
         android:background="#CCCCCCCC"
-        android:onClick="mail_error"
         android:text="@string/ok" />
 
     <TextView

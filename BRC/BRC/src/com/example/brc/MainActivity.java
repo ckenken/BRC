@@ -2,37 +2,60 @@ package com.example.brc;
 
 import android.os.Bundle;
 import android.app.Activity;
-import android.view.Menu;
 import android.view.*;  
+import android.widget.Button;
 import android.widget.TextView;
+import android.content.*;
 
 
 
 public class MainActivity extends Activity {
 
 	private TextView login_error;
-	private TextView mail_error;
+	private Button button_index_login, botton_index_forget,botton_index_register;
+	Intent intent = new Intent();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.index);
+        
+        button_index_login = (Button)findViewById(R.id.button_login);
+        botton_index_forget = (Button)findViewById(R.id.button_forget);
+        botton_index_register = (Button)findViewById(R.id.button_register);
+        login_error = (TextView)findViewById(R.id.password_error);    
+    	intent.setClass(MainActivity.this,ForgetActivity.class);
+
+        
+        button_index_login.setOnClickListener(new Button.OnClickListener(){ 
+            @Override
+        	public void onClick(View v) {
+            	login_error.setVisibility(View.VISIBLE);  
+            }         
+        });
+        
+        
+        botton_index_forget.setOnClickListener(new Button.OnClickListener(){ 
+            @Override
+        	public void onClick(View v) {
+ 
+          	  startActivity(intent);
+          	  MainActivity.this.finish();
+            
+            }         
+        });
+       
+
+        botton_index_register.setOnClickListener(new Button.OnClickListener(){
+            @Override
+        	public void onClick(View v) { 
+        	  setContentView(R.layout.register);
+        	}
+        });         
+        
+    }
     
-    }
-    public void login(View view){
-    	login_error = (TextView)findViewById(R.id.password_error); 
-    	login_error.setVisibility(View.VISIBLE);  
-    	  //setContentView(R.layout.home);
-    }
-    public void password_forget(View view){
-    	  setContentView(R.layout.forget);
-    }
-    
-    public void mail_error(View view){
-    	mail_error = (TextView)findViewById(R.id.mail_error); 
-    	mail_error.setVisibility(View.VISIBLE);  
-    	  //setContentView(R.layout.home);
-    }
+
 
 
     @Override
