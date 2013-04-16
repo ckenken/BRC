@@ -2,6 +2,8 @@ package com.example.bmi;
 
 import java.text.DecimalFormat;
 
+import db.jdbcmysql;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
@@ -12,7 +14,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class Bmi extends Activity {
-
+	
+	public jdbcmysql test = new jdbcmysql(); 
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -36,8 +40,10 @@ public class Bmi extends Activity {
 			double BMI = weight/(height * height);
 			
 			TextView result = (TextView)findViewById(R.id.result);
-			result.setText("Your BMI = " + nf.format(BMI));
+			//result.setText("Your BMI = " + nf.format(BMI));
 			
+			String s = test.SelectTable2();
+			result.setText(s);
 			
 		}
 	};
