@@ -17,4 +17,5 @@
 	<string name="logo">Buy Together</string>
 	<string name="buyTogether">Buy Together</string>
 	<string name="find_password">取回密碼</string>
+	<string name="register_info">請輸入基本資料</string>
 </resources>

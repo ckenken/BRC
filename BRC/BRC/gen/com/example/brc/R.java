@@ -39,7 +39,7 @@ public final class R {
         public static final int rounded_edittext=0x7f020009;
     }
     public static final class id {
-        public static final int action_settings=0x7f090012;
+        public static final int action_settings=0x7f090013;
         public static final int button_forget=0x7f090009;
         public static final int button_login=0x7f090008;
         public static final int button_register=0x7f090007;
@@ -55,6 +55,7 @@ public final class R {
         public static final int password_error=0x7f09000b;
         public static final int register_account=0x7f09000e;
         public static final int register_again_password=0x7f09000f;
+        public static final int register_info=0x7f090012;
         public static final int register_mail=0x7f090010;
         public static final int register_ok=0x7f090011;
         public static final int register_password=0x7f09000d;
@@ -84,6 +85,7 @@ public final class R {
         public static final int password_error=0x7f060009;
         public static final int password_forget=0x7f060007;
         public static final int register=0x7f060006;
+        public static final int register_info=0x7f060010;
         public static final int user_name=0x7f060003;
     }
     public static final class style {
