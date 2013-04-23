@@ -16,4 +16,5 @@
 	<string name="mail_error">信箱與註冊時不一致</string>
 	<string name="logo">Buy Together</string>
 	<string name="buyTogether">Buy Together</string>
+	<string name="find_password">取回密碼</string>
 </resources>
