@@ -4,13 +4,13 @@
     android:padding="10dp" >  
     <solid android:color="#FFFFFF" />  
     <stroke 
-        android:width="3dip" 
+        android:width="2dip" 
         android:color="#CCCCCCCC" />
     <corners 
-        android:bottomRightRadius="15dp"  
-        android:bottomLeftRadius="15dp" 
-        android:topLeftRadius="15dp"  
-        android:topRightRadius="15dp" /> 
+        android:bottomRightRadius="10dp"  
+        android:bottomLeftRadius="10dp" 
+        android:topLeftRadius="10dp"  
+        android:topRightRadius="10dp" /> 
     <selector xmlns:android="http://schemas.android.com/apk/res/android">
 		<stroke android:state_pressed="true" android:width="3dip" android:color="#000000" />
 		<stroke android:state_focused="true" android:width="3dip" android:color="#000000" />
