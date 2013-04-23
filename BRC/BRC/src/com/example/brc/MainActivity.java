@@ -15,6 +15,7 @@ public class MainActivity extends Activity {
 	private Button button_login, botton_forget,botton_register;
 	Intent intent_forget = new Intent();
 	Intent intent_register = new Intent();
+	Intent intent_home = new Intent();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,12 +29,14 @@ public class MainActivity extends Activity {
         
         intent_register.setClass(MainActivity.this,RegisterActivity.class);
         intent_forget.setClass(MainActivity.this,ForgetActivity.class);
+        intent_home.setClass(MainActivity.this,HomeActivity.class);
 
         
         button_login.setOnClickListener(new Button.OnClickListener(){ 
             @Override
         	public void onClick(View v) {
-            	login_error.setVisibility(View.VISIBLE);  
+            	//login_error.setVisibility(View.VISIBLE);  
+            	startActivity(intent_home);
             }         
         });
         
