@@ -2,13 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/gray"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/bg"
     tools:context=".MainActivity" >
-
     
     <EditText
         android:id="@+id/forget_account"
@@ -36,8 +35,10 @@
         android:layout_alignBottom="@+id/button_login"
         android:layout_marginLeft="14dp"
         android:layout_toRightOf="@+id/button_login"
-        android:background="#CCCCCCCC"
-        android:text="@string/register" />
+        android:background="@drawable/button_bg"
+        android:text="@string/register"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
 
     <Button
         android:id="@+id/button_forget"
@@ -47,8 +48,9 @@
         android:layout_alignBaseline="@+id/button_register"
         android:layout_alignBottom="@+id/button_register"
         android:layout_alignRight="@+id/password"
-        android:background="#CCCCCCCC"
-        android:text="@string/password_forget" />
+        android:background="@drawable/button_bg"
+        android:text="@string/password_forget"
+        android:textColor="@color/white" />
 
     <EditText
         android:id="@+id/password"
@@ -76,6 +78,7 @@
         android:paddingRight="10dp"
         android:paddingTop="7dp"
         android:text="@string/password_error"
+        android:textColor="@color/black"
         android:visibility="invisible" />
 
     <Button
@@ -86,7 +89,28 @@
         android:layout_alignLeft="@+id/password"
         android:layout_below="@+id/password"
         android:layout_marginTop="29dp"
-        android:background="#CCCCCCCC"       
-        android:text="@string/login" />
+        android:background="@drawable/button_bg"
+        android:text="@string/login"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/logoimg"
+        android:contentDescription="@string/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/logo3" />
+
+    <TextView
+        android:id="@+id/buy_together"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/forget_account"
+        android:layout_below="@+id/logoimg"
+        android:text="@string/buyTogether"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
 
 </RelativeLayout>

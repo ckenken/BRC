@@ -802,6 +802,12 @@ containing a value of this type.
         public static final int abs__primary_text_holo_dark=0x7f060008;
         public static final int abs__primary_text_holo_light=0x7f060009;
     }
+    public static final class color {
+        public static final int black=0x7f040003;
+        public static final int gray=0x7f040002;
+        public static final int red=0x7f040001;
+        public static final int white=0x7f040000;
+    }
     public static final class dimen {
         /**  Default height of an action bar. 
  Default height of an action bar. 
@@ -905,6 +911,7 @@ containing a value of this type.
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
+<<<<<<< HEAD
         public static final int activity_horizontal_margin=0x7f07000f;
         public static final int activity_vertical_margin=0x7f070010;
     }
@@ -1114,6 +1121,44 @@ containing a value of this type.
     }
     public static final class integer {
         public static final int abs__max_action_buttons=0x7f080000;
+=======
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
+    }
+    public static final class drawable {
+        public static final int bg=0x7f020000;
+        public static final int bg2=0x7f020001;
+        public static final int button_bg=0x7f020002;
+        public static final int button_pink=0x7f020003;
+        public static final int button_red=0x7f020004;
+        public static final int ic_launcher=0x7f020005;
+        public static final int logo=0x7f020006;
+        public static final int logo2=0x7f020007;
+        public static final int logo3=0x7f020008;
+        public static final int rounded_edittext=0x7f020009;
+    }
+    public static final class id {
+        public static final int action_settings=0x7f090013;
+        public static final int button_forget=0x7f090009;
+        public static final int button_login=0x7f090008;
+        public static final int button_register=0x7f090007;
+        public static final int buy_together=0x7f090004;
+        public static final int find_password=0x7f090006;
+        public static final int forget_account=0x7f090001;
+        public static final int forget_mail=0x7f090000;
+        public static final int forget_ok=0x7f090003;
+        public static final int logoImg=0x7f090005;
+        public static final int logoimg=0x7f09000c;
+        public static final int mail_error=0x7f090002;
+        public static final int password=0x7f09000a;
+        public static final int password_error=0x7f09000b;
+        public static final int register_account=0x7f09000e;
+        public static final int register_again_password=0x7f09000f;
+        public static final int register_info=0x7f090012;
+        public static final int register_mail=0x7f090010;
+        public static final int register_ok=0x7f090011;
+        public static final int register_password=0x7f09000d;
+>>>>>>> 9087e23ed7f55bac87b39beace3fa61579d9ae58
     }
     public static final class layout {
         public static final int abs__action_bar_home=0x7f030000;
@@ -1147,6 +1192,7 @@ containing a value of this type.
         public static final int slidingmenumain=0x7f03001c;
     }
     public static final class menu {
+<<<<<<< HEAD
         public static final int main=0x7f0b0000;
     }
     public static final class string {
@@ -1203,6 +1249,28 @@ containing a value of this type.
         public static final int password_forget=0x7f090014;
         public static final int register=0x7f090013;
         public static final int user_name=0x7f090010;
+=======
+        public static final int main=0x7f080000;
+    }
+    public static final class string {
+        public static final int action_settings=0x7f060001;
+        public static final int again_password=0x7f060005;
+        public static final int app_name=0x7f060000;
+        public static final int buyTogether=0x7f06000e;
+        public static final int find_password=0x7f06000f;
+        public static final int hello_world=0x7f060002;
+        public static final int login=0x7f060008;
+        public static final int logo=0x7f06000d;
+        public static final int mail=0x7f06000b;
+        public static final int mail_error=0x7f06000c;
+        public static final int ok=0x7f06000a;
+        public static final int password=0x7f060004;
+        public static final int password_error=0x7f060009;
+        public static final int password_forget=0x7f060007;
+        public static final int register=0x7f060006;
+        public static final int register_info=0x7f060010;
+        public static final int user_name=0x7f060003;
+>>>>>>> 9087e23ed7f55bac87b39beace3fa61579d9ae58
     }
     public static final class style {
         /** 
@@ -1226,6 +1294,7 @@ containing a value of this type.
     
  API 14 theme customizations can go here. 
          */
+<<<<<<< HEAD
         public static final int AppBaseTheme=0x7f0a0059;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
@@ -1320,6 +1389,13 @@ containing a value of this type.
         public static final int Widget_Sherlock_SearchAutoCompleteTextView=0x7f0a0034;
         public static final int Widget_Sherlock_Spinner_DropDown_ActionBar=0x7f0a0024;
         public static final int Widget_Sherlock_TextView_SpinnerItem=0x7f0a0032;
+=======
+        public static final int AppBaseTheme=0x7f070000;
+        /**  Application theme. 
+ All customizations that are NOT specific to a particular API-level can go here. 
+         */
+        public static final int AppTheme=0x7f070001;
+>>>>>>> 9087e23ed7f55bac87b39beace3fa61579d9ae58
     }
     public static final class styleable {
         /**  Attributes used to style the Action Bar. 

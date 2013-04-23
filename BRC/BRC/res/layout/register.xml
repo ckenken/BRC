@@ -1,7 +1,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/bg" >
+    android:background="@color/gray" >
     
     <EditText
         android:id="@+id/register_password"
@@ -61,7 +61,7 @@
         android:layout_alignRight="@+id/register_mail"
         android:layout_below="@+id/register_mail"
         android:layout_marginTop="20dp"
-        android:background="#CCCCCCCC"
+        android:background="@drawable/button_bg"
         android:text="@string/ok" />
 
     <EditText
@@ -79,5 +79,35 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:textSize="14sp" />
+
+        <ImageView
+        android:id="@+id/logoimg"
+        android:contentDescription="@string/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/logo3" />
+
+    <TextView
+        android:id="@+id/buy_together"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/register_account"
+        android:layout_below="@+id/logoimg"
+        android:text="@string/buyTogether"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/register_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buy_together"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="@string/register_info"
+        android:textSize="18sp" />
     
 </RelativeLayout>
