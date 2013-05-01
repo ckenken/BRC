@@ -1,0 +1,39 @@
+package com.slidingmenu.example;
+
+import com.slidingmenu.example.R;
+import com.slidingmenu.example.R.id;
+import com.slidingmenu.example.R.layout;
+import com.slidingmenu.example.R.menu;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.*;  
+import android.widget.Button;
+import android.widget.TextView;
+
+
+public class HomeActivity extends BaseActivity {
+	
+	public HomeActivity() {
+		super(R.string.title_bar_content);
+	}
+	
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+
+		// set the Above View
+		setContentView(R.layout.home);
+		setSlidingActionBarEnabled(true);
+		
+		
+	}
+	
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action  bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
+}

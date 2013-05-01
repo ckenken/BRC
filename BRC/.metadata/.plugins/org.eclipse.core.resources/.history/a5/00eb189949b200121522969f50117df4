@@ -1,0 +1,57 @@
+package com.slidingmenu.example;
+
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.ViewGroup.LayoutParams;
+import android.widget.*;
+
+import com.slidingmenu.example.R;
+
+
+public class HomeActivity extends BaseActivity {
+	
+	private TableLayout table_initiate;
+	private TableRow table_row;
+	
+	public HomeActivity() {
+		super(R.string.title_bar_content);
+	}
+	
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+
+		// set the Above View
+		setContentView(R.layout.home);
+		setSlidingActionBarEnabled(true);
+		
+		//load
+		
+		table_initiate = (TableLayout) findViewById(R.id.table_initiate);
+		
+		table_row = new TableRow(this);
+		
+		
+		TextView view = new TextView(this);
+		TextView view1 = new TextView(this);
+
+		
+		view.setText("主購者代號");		
+		table_row.addView(view);
+		
+		view1.setText("商品名稱");		
+		table_row.addView(view1);
+		
+
+		
+		table_initiate.addView(table_row);
+		
+		
+		
+		
+		
+		
+	}
+
+
+}

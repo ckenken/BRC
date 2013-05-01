@@ -1,0 +1,75 @@
+package com.slidingmenu.example;
+
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.ViewGroup.LayoutParams;
+import android.widget.*;
+
+import com.slidingmenu.example.R;
+
+
+public class HomeActivity extends BaseActivity {
+	
+	private TableLayout table_initiate;
+	
+	public HomeActivity() {
+		super(R.string.title_bar_content);
+	}
+	
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+
+		// set the Above View
+		setContentView(R.layout.home);
+		setSlidingActionBarEnabled(true);
+		
+		//load
+		
+		table_initiate = (TableLayout) findViewById(R.id.table_initiate);
+		for(int i =0;i<2;i++){
+		TableRow table_row = new TableRow(this);		
+		ImageView enter = new ImageView(this);
+		TextView initiator = new TextView(this);
+		TextView buy = new TextView(this);
+		TextView location = new TextView(this);
+		TextView dateline = new TextView(this);
+		
+
+		
+		enter.setImageResource(R.drawable.logo);	
+		table_row.addView(enter);
+		
+		initiator.setText("主購者代號");		
+		table_row.addView(initiator);
+		
+		buy.setText("商品名稱");		
+		table_row.addView(buy);
+		
+		location.setText("取貨地點");		
+		table_row.addView(location);
+		
+		dateline.setText("截止日期");		
+		table_row.addView(dateline);
+		
+
+		
+		table_initiate.addView(table_row);
+		
+		}
+		
+		TableRow table_row1 = new TableRow(this);
+		ImageView border = new ImageView(this);
+
+		border.setImageResource(R.drawable.logo);	
+		table_row1.addView(border);
+		
+		
+		
+		
+		
+		
+	}
+
+
+}
