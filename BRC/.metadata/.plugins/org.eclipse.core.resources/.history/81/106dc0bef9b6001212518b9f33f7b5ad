@@ -1,0 +1,29 @@
+package com.slidingmenu.example;
+
+import com.slidingmenu.example.R;
+import com.slidingmenu.example.R.id;
+import com.slidingmenu.example.R.layout;
+import com.slidingmenu.example.R.menu;
+import com.slidingmenu.lib.app.SlidingFragmentActivity;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.*;  
+import android.widget.Button;
+import android.widget.TextView;
+import android.content.*;
+import android.net.Uri;
+
+
+public class SlidingActivity extends HomeActivity{
+
+	public static void goToGitHub(Context context) {
+		Uri uriUrl = Uri.parse("http://github.com/jfeinstein10/slidingmenu");
+		Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl); 
+		context.startActivity(launchBrowser);
+	}
+	
+
+	
+	
+}

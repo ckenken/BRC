@@ -11,6 +11,7 @@
 <fullyQualifiedTypeName name="android.R.drawable"/>
 <fullyQualifiedTypeName name="android.R"/>
 <fullyQualifiedTypeName name="android.R.id"/>
+<fullyQualifiedTypeName name="android.view.ViewGroup.LayoutParams"/>
 <fullyQualifiedTypeName name="com.slidingmenu.example.R.id"/>
 <fullyQualifiedTypeName name="com.slidingmenu.example.R.drawable"/>
 </qualifiedTypeNameHistroy>
