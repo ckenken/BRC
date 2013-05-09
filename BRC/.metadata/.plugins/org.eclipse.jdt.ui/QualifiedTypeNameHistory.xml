@@ -14,4 +14,6 @@
 <fullyQualifiedTypeName name="android.view.ViewGroup.LayoutParams"/>
 <fullyQualifiedTypeName name="com.slidingmenu.example.R.id"/>
 <fullyQualifiedTypeName name="com.slidingmenu.example.R.drawable"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.slidingmenu.example.HomeActivity"/>
 </qualifiedTypeNameHistroy>
