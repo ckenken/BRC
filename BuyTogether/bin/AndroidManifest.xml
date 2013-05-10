@@ -50,6 +50,7 @@
         <activity android:name="InitiateDetailActivity"></activity>
         <activity android:name="InitiateActivity"></activity>
         <activity android:name="SeekDetailActivity"></activity>
+        <activity android:name="SearchActivity"></activity>
     </application>
 
 </manifest>

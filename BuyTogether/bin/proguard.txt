@@ -98,6 +98,9 @@
 # view res/layout/menu.xml #generated:2
 -keep class com.slidingmenu.example.SampleListFragment { <init>(...); }
 
+# view AndroidManifest.xml #generated:53
+-keep class com.slidingmenu.example.SearchActivity { <init>(...); }
+
 # view AndroidManifest.xml #generated:49
 -keep class com.slidingmenu.example.SeekActivity { <init>(...); }
 
