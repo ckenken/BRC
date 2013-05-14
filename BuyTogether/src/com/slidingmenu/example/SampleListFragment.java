@@ -21,12 +21,20 @@ public class SampleListFragment extends ListFragment {
 		super.onActivityCreated(savedInstanceState);
 		SampleAdapter adapter = new SampleAdapter(getActivity());
 		//for (int i = 0; i < 5; i++) {
+<<<<<<< HEAD
 			adapter.add(new SampleItem("訊息", R.drawable.ic_message));
 			adapter.add(new SampleItem("主購商品", R.drawable.ic_shopping));
 			adapter.add(new SampleItem("徵求主購", R.drawable.ic_hlepbuy));
 			adapter.add(new SampleItem("商品紀錄", R.drawable.ic_shoppingcar));			
 			adapter.add(new SampleItem("登出", R.drawable.ic_logout));
 			adapter.add(new SampleItem("搜尋", R.drawable.ic_search));
+=======
+			adapter.add(new SampleItem("主購商品", R.drawable.logo));
+			adapter.add(new SampleItem("徵求主購", R.drawable.logo));
+			adapter.add(new SampleItem("商品紀錄", R.drawable.logo));			
+			adapter.add(new SampleItem("登出", R.drawable.logo));
+			adapter.add(new SampleItem("搜尋", android.R.drawable.ic_menu_search));
+>>>>>>> 8a5e5307ce0ac1146797033c41e9889b93665bd7
 			
 
 		//}
