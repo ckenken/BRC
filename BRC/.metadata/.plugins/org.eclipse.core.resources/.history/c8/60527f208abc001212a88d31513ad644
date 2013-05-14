@@ -107,11 +107,6 @@ public class InitiateActivity extends BaseActivity {
 				intent.setClass(InitiateActivity.this, InitiateActivity.class);
 				startActivity(intent);
 				return true;
-			case R.id.message:
-				
-				intent.setClass(InitiateActivity.this, MessageActivity.class);
-				startActivity(intent);
-				return true;
 		}
 		return super.onOptionsItemSelected(item);
 	}

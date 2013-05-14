@@ -109,6 +109,12 @@ public class SeekActivity extends BaseActivity {
 				intent.setClass(SeekActivity.this, InitiateActivity.class);
 				startActivity(intent);
 				return true;
+				
+			case R.id.message:
+				
+				intent.setClass(SeekActivity.this, MessageActivity.class);
+				startActivity(intent);
+				return true;
 		}
 		return super.onOptionsItemSelected(item);
 	}
