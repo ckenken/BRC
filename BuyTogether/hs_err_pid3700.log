@@ -1,0 +1,109 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:129), pid=3700, tid=10728
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version: 7.0_09-b05
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (23.5-b02 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000001c8d000):  JavaThread "Unknown thread" [_thread_in_vm, id=10728, stack(0x0000000002810000,0x0000000002910000)]
+
+Stack: [0x0000000002810000,0x0000000002910000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000001c8d000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=10728, stack(0x0000000002810000,0x0000000002910000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.008 loading class 0x0000000002500dd0 done
+Event: 0.008 loading class 0x00000000024c3210 done
+Event: 0.008 loading class 0x00000000024c31e0
+Event: 0.008 loading class 0x00000000025511c0
+Event: 0.008 loading class 0x00000000025511c0 done
+Event: 0.008 loading class 0x0000000002551200
+Event: 0.008 loading class 0x0000000002551200 done
+Event: 0.008 loading class 0x0000000008dbe8f0
+Event: 0.008 loading class 0x0000000008dbe8f0 done
+Event: 0.008 loading class 0x00000000024c31e0 done
+
+
+Dynamic libraries:
+0x000000013fe00000 - 0x000000013fe34000 	C:\Program Files\Java\jre7\bin\javaw.exe
+0x0000000076ff0000 - 0x0000000077199000 	C:\Windows\SYSTEM32\ntdll.dll
+0x0000000076dd0000 - 0x0000000076eef000 	C:\Windows\system32\kernel32.dll
+0x000007fefce80000 - 0x000007fefceeb000 	C:\Windows\system32\KERNELBASE.dll
+0x000007fefee50000 - 0x000007fefef2b000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fefdbd0000 - 0x000007fefdc6f000 	C:\Windows\system32\msvcrt.dll
+0x000007fefd210000 - 0x000007fefd22f000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007fefd8e0000 - 0x000007fefda0d000 	C:\Windows\system32\RPCRT4.dll
+0x0000000076ef0000 - 0x0000000076fea000 	C:\Windows\system32\USER32.dll
+0x000007fefda90000 - 0x000007fefdaf7000 	C:\Windows\system32\GDI32.dll
+0x000007fefee40000 - 0x000007fefee4e000 	C:\Windows\system32\LPK.dll
+0x000007fefde80000 - 0x000007fefdf49000 	C:\Windows\system32\USP10.dll
+0x000007fefa600000 - 0x000007fefa7f4000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac\COMCTL32.dll
+0x000007fefda10000 - 0x000007fefda81000 	C:\Windows\system32\SHLWAPI.dll
+0x000007feff1c0000 - 0x000007feff1ee000 	C:\Windows\system32\IMM32.DLL
+0x000007feff1f0000 - 0x000007feff2f9000 	C:\Windows\system32\MSCTF.dll
+0x000000005c7a0000 - 0x000000005c871000 	C:\Program Files\Java\jre7\bin\msvcr100.dll
+0x000000006ecd0000 - 0x000000006f3ef000 	C:\Program Files\Java\jre7\bin\server\jvm.dll
+0x000007fef8420000 - 0x000007fef8429000 	C:\Windows\system32\WSOCK32.dll
+0x000007fefdb80000 - 0x000007fefdbcd000 	C:\Windows\system32\WS2_32.dll
+0x000007fefd200000 - 0x000007fefd208000 	C:\Windows\system32\NSI.dll
+0x000007fefa590000 - 0x000007fefa5cb000 	C:\Windows\system32\WINMM.dll
+0x00000000771b0000 - 0x00000000771b7000 	C:\Windows\system32\PSAPI.DLL
+0x0000000069a00000 - 0x0000000069a0f000 	C:\Program Files\Java\jre7\bin\verify.dll
+0x0000000065dd0000 - 0x0000000065df8000 	C:\Program Files\Java\jre7\bin\java.dll
+0x0000000067530000 - 0x0000000067545000 	C:\Program Files\Java\jre7\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=MS950 -Xbootclasspath:C:\Users\Rainbow\Downloads\adt-bundle-windows-x86_64-20130219\adt-bundle-windows-x86_64-20130219\sdk\platforms\android-17\android.jar;C:\Users\Rainbow\Downloads\adt-bundle-windows-x86_64-20130219\adt-bundle-windows-x86_64-20130219\sdk\add-ons\addon-google_apis-google-17\libs\effects.jar;C:\Users\Rainbow\Downloads\adt-bundle-windows-x86_64-20130219\adt-bundle-windows-x86_64-20130219\sdk\add-ons\addon-google_apis-google-17\libs\usb.jar;C:\Users\Rainbow\Downloads\adt-bundle-windows-x86_64-20130219\adt-bundle-windows-x86_64-20130219\sdk\add-ons\addon-google_apis-google-17\libs\maps.jar 
+java_command: ch.idsia.scenarios.Play
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.7.0_09
+PATH=C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Sony\VAIO Startup Setting Tool;C:\Program Files (x86)\Common Files\Roxio Shared\10.0\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Java\jdk1.7.0_09\bin;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64
+USERNAME=Rainbow
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 Service Pack 1
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, ht, tsc, tscinvbit
+
+Memory: 4k page, physical 4108088k(820920k free), swap 8214316k(1773204k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (23.5-b02) for windows-amd64 JRE (1.7.0_09-b05), built on Sep 24 2012 21:45:04 by "java_re" with unknown MS VC++:1600
+
+time: Tue May 14 19:05:04 2013
+elapsed time: 0 seconds
+
