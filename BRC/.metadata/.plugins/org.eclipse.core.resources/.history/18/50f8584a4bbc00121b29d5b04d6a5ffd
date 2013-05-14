@@ -1,0 +1,76 @@
+package com.slidingmenu.example;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.View;
+import android.view.ViewGroup.LayoutParams;
+import android.widget.*;
+import java.util.*;
+
+import com.actionbarsherlock.view.MenuItem;
+import com.slidingmenu.example.R;
+
+
+public class MessageActivity extends BaseActivity{
+	
+	
+	public MessageActivity() {
+		super(R.string.title_bar_content);
+	}
+	
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		String[] EngText = {
+	             "cat", "flower", "hippo", "monkey", "mushroom", "panda", "rabbit", "raccoon"
+	     };
+	  String[] Text = {
+	             "貓", "花", "河馬", "猴子", "蘑菇", "熊貓", "兔子", "浣熊"
+	     };
+		
+		
+		super.onCreate(savedInstanceState);
+
+		// set the Above View
+		setContentView(R.layout.message);
+		setSlidingActionBarEnabled(true);
+		
+		
+		  //建立存放HashMap資訊的ArrayList物件
+		  List<Map<String, String>> list = new ArrayList<Map<String, String>>();
+		  //用迴圈將資料轉換成HashMap型態存進ArrayList裡
+		  for (int i = 0; i < EngText.length; i++) {
+		  Map<String,String> map = new HashMap<String,String>();
+		  map.put("name",EngText[i]);
+		  map.put("text", Text[i]);
+		  list.add(map);
+		  }
+		  //利用SimpleAdapter產生動態資訊，this是固定的，之後(1)list為要放入的資料(2)放入資料後排列的樣式(3)對應的先後順序(4)該layout中TextView的ID名稱
+		 SimpleAdapter adapter = new SimpleAdapter(this,list,R.layout.list,new String[]{"name","text"},new int[] {R.id.name,R.id.text} );
+
+		  //將Adapter中的資料給 listView
+		 listView.setAdapter(adapter);
+
+	}
+	
+	
+	public boolean onOptionsItemSelected(MenuItem item) {
+		Intent intent = new Intent();
+		switch (item.getItemId()) {
+
+			case R.id.initiate:
+				
+				intent.setClass(MessageActivity.this, SeekActivity.class);
+				startActivity(intent);
+				return true;
+			case R.id.seek:
+				
+				intent.setClass(MessageActivity.this, InitiateActivity.class);
+				startActivity(intent);
+				return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
+	
+	
+}

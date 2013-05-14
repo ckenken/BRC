@@ -36,7 +36,7 @@ public class InitiateActivity extends BaseActivity {
 		table_initiate.setColumnShrinkable(6, true);
 		table_initiate.setColumnShrinkable(8, true);
 		
-		for(int i =0;i<2;i++){
+		for(int i =0;i<30;i++){
 			TableRow table_row = new TableRow(this);		
 			Button enter = new Button(this);
 			TextView initiator = new TextView(this);

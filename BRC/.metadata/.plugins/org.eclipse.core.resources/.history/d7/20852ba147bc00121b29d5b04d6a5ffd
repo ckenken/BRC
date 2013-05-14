@@ -1,0 +1,6 @@
+
+
+    <ListView
+        android:id="@+id/listView_message"
+ >
+    </ListView>

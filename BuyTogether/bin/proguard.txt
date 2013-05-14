@@ -89,6 +89,9 @@
 # view AndroidManifest.xml #generated:42
 -keep class com.slidingmenu.example.MainActivity { <init>(...); }
 
+# view AndroidManifest.xml #generated:54
+-keep class com.slidingmenu.example.MessageActivity { <init>(...); }
+
 # view AndroidManifest.xml #generated:24
 -keep class com.slidingmenu.example.PropertiesActivity { <init>(...); }
 
