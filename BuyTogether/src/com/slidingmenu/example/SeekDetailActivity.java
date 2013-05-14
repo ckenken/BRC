@@ -44,6 +44,14 @@ public class SeekDetailActivity extends BaseActivity {
 				intent.setClass(SeekDetailActivity.this, InitiateActivity.class);
 				startActivity(intent);
 				return true;
+			
+			case R.id.message:
+				
+				intent.setClass(SeekDetailActivity.this, MessageActivity.class);
+				startActivity(intent);
+				return true;
+				
+				
 		}
 		return super.onOptionsItemSelected(item);
 	}

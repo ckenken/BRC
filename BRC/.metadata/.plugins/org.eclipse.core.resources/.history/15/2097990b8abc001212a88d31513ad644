@@ -89,12 +89,6 @@ public class MessageActivity extends BaseActivity{
 				intent.setClass(MessageActivity.this, InitiateActivity.class);
 				startActivity(intent);
 				return true;
-				
-			case R.id.message:
-				
-				intent.setClass(MessageActivity.this, MessageActivity.class);
-				startActivity(intent);
-				return true;
 		}
 		return super.onOptionsItemSelected(item);
 	}

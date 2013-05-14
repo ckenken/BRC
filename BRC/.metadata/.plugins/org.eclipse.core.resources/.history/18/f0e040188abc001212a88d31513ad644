@@ -42,12 +42,6 @@ public class InitiateDetailActivity extends BaseActivity {
 				intent.setClass(InitiateDetailActivity.this, InitiateActivity.class);
 				startActivity(intent);
 				return true;
-				
-			case R.id.message:
-				
-				intent.setClass(InitiateDetailActivity.this, MessageActivity.class);
-				startActivity(intent);
-				return true;
 		}
 		return super.onOptionsItemSelected(item);
 	}

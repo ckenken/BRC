@@ -21,6 +21,7 @@ public class SampleListFragment extends ListFragment {
 		super.onActivityCreated(savedInstanceState);
 		SampleAdapter adapter = new SampleAdapter(getActivity());
 		//for (int i = 0; i < 5; i++) {
+			adapter.add(new SampleItem("訊息", R.drawable.logo));
 			adapter.add(new SampleItem("主購商品", R.drawable.logo));
 			adapter.add(new SampleItem("徵求主購", R.drawable.logo));
 			adapter.add(new SampleItem("商品紀錄", R.drawable.logo));			
