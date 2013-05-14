@@ -10,7 +10,7 @@
     tools:context=".MainActivity" >
     
     <EditText
-        android:id="@+id/account"
+        android:id="@+id/forget_account"
         android:layout_width="200dp"
         android:layout_height="30dp"
         android:layout_centerHorizontal="true"
@@ -56,8 +56,8 @@
         android:id="@+id/password"
         android:layout_width="200dp"
         android:layout_height="30dp"
-        android:layout_alignLeft="@+id/account"
-        android:layout_below="@+id/account"
+        android:layout_alignLeft="@+id/forget_account"
+        android:layout_below="@+id/forget_account"
         android:layout_marginTop="22dp"
         android:background="@drawable/rounded_edittext"
         android:ems="10"
@@ -72,7 +72,7 @@
         android:id="@+id/password_error"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/account"
+        android:layout_above="@+id/forget_account"
         android:layout_alignLeft="@+id/button_register"
         android:paddingBottom="5dp"
         android:paddingRight="10dp"
@@ -107,7 +107,7 @@
         android:id="@+id/buy_together"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/account"
+        android:layout_alignLeft="@+id/forget_account"
         android:layout_below="@+id/logoimg"
         android:text="@string/buyTogether"
         android:textColor="@color/black"
