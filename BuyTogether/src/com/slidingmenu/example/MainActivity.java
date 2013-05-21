@@ -119,6 +119,9 @@ public class MainActivity extends Activity {
             @Override
         	public void onClick(View v) { 
               startActivity(intent_register);
+              
+              
+              
               //MainActivity.this.finish();
         	}
         });         
