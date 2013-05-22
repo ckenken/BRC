@@ -53,8 +53,8 @@ public class SeekMyActivity extends BaseActivity {
 	            @Override
 	        	public void onClick(View v) { 
 	            Intent intent = new Intent();
-	            //intent.setClass(SeekMyActivity.this, SeekDetailActivity.class);
-	              //startActivity(intent);
+	            intent.setClass(SeekMyActivity.this, SeekMyDetailActivity.class);
+	              startActivity(intent);
 	              //MainActivity.this.finish();
 	        	}
 	        });   

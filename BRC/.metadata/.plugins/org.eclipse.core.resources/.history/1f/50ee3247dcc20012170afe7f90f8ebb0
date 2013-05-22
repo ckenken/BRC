@@ -1,0 +1,130 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView_initiate_detail" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:fillViewport="true"
+        android:scrollbars="none"> 
+        
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    >
+
+    <TableLayout
+        android:id="@+id/table_initiate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/initiate_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/table_initiate"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="40dp"
+        android:text="主購者代號" />
+
+    <TextView
+        android:id="@+id/initiate_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/initiate_account"
+        android:layout_below="@+id/initiate_account"
+        android:layout_marginTop="40dp"
+        android:text="評價" />
+
+    <TextView
+        android:id="@+id/initiate_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/initiate_score"
+        android:layout_below="@+id/initiate_score"
+        android:layout_marginTop="40dp"
+        android:text="商品分類" />
+
+    <TextView
+        android:id="@+id/initiate_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/initiate_type"
+        android:layout_centerVertical="true"
+        android:text="取貨地區" />
+
+    <TextView
+        android:id="@+id/initiate_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/initiate_location"
+        android:layout_below="@+id/initiate_location"
+        android:layout_marginTop="40dp"
+        android:text="跟隨人數" />
+
+    <TextView
+        android:id="@+id/initiate_dateline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/initiate_number"
+        android:layout_below="@+id/initiate_number"
+        android:layout_marginTop="40dp"
+        android:text="截止日期" />
+
+    <TextView
+        android:id="@+id/initiate_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/initiate_account"
+        android:layout_alignBottom="@+id/initiate_account"
+        android:layout_marginLeft="84dp"
+        android:layout_toRightOf="@+id/initiate_account"
+        android:text="商品名稱" />
+
+    <TextView
+        android:id="@+id/initiate_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/initiate_score"
+        android:layout_alignBottom="@+id/initiate_score"
+        android:layout_alignLeft="@+id/initiate_name"
+        android:text="商品介紹" />
+
+    <TextView
+        android:id="@+id/initiate_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/initiate_type"
+        android:layout_alignLeft="@+id/initiate_intro"
+        android:text="批價說明及付款方式" />
+
+    <TextView
+        android:id="@+id/initiate_limit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/initiate_location"
+        android:layout_alignLeft="@+id/initiate_pay"
+        android:text="跟團限制" />
+
+    <Button
+        android:id="@+id/initiate_ok"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/initiate_intro"
+        android:text="跟隨" />
+
+    <TextView
+        android:id="@+id/initiate_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/initiate_pay"
+        android:layout_below="@+id/initiate_pay"
+        android:text="備註" />
+
+</RelativeLayout>
+</ScrollView>

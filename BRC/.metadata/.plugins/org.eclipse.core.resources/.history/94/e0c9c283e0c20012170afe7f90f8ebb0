@@ -1,0 +1,120 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView_seek_my_detail" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:fillViewport="true"
+        android:scrollbars="none"> 
+        
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" >
+
+	    <Button
+	        android:id="@+id/seek_my_ok"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginBottom="24dp"
+	        android:layout_marginRight="50dp"
+	        android:text="更改" />
+
+	    <TextView
+	        android:id="@+id/seek_my_note"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/seek_my_pay"
+	        android:layout_below="@+id/seek_my_pay"
+	        android:layout_marginTop="64dp"
+	        android:text="備註" />
+
+	    <TextView
+	        android:id="@+id/seek_my_dateline"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/seek_my_pay"
+	        android:layout_marginTop="42dp"
+	        android:text="截止日期" />
+
+	    <TextView
+	        android:id="@+id/seek_my_limit"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/seek_my_dateline"
+	        android:layout_below="@+id/seek_my_dateline"
+	        android:layout_marginTop="59dp"
+	        android:text="跟團限制" />
+
+	    <TextView
+	        android:id="@+id/seek_my_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/seek_my_dateline"
+	        android:layout_alignBottom="@+id/seek_my_dateline"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginLeft="30dp"
+	        android:text="商品名稱" />
+
+	    <TextView
+	        android:id="@+id/seek_my_type"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/seek_my_limit"
+	        android:layout_alignBottom="@+id/seek_my_limit"
+	        android:layout_alignLeft="@+id/seek_my_name"
+	        android:text="商品分類" />
+
+	    <RadioButton
+	        android:id="@+id/clothes"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignRight="@+id/seek_my_type"
+	        android:layout_below="@+id/seek_my_type"
+	        android:text="衣飾" />
+
+	    <RadioButton
+	        android:id="@+id/food"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/clothes"
+	        android:layout_below="@+id/clothes"
+	        android:text="食物" />
+
+	    <TextView
+	        android:id="@+id/seek_my_intro"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_above="@+id/seek_my_note"
+	        android:layout_alignRight="@+id/food"
+	        android:text="商品介紹" />
+
+	    <RadioButton
+	        android:id="@+id/ticket"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/food"
+	        android:layout_below="@+id/food"
+	        android:text="票券" />
+
+	    <RadioButton
+	        android:id="@+id/complex"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignRight="@+id/seek_my_intro"
+	        android:layout_below="@+id/ticket"
+	        android:text="綜合" />
+
+	    <TextView
+	        android:id="@+id/seek_my_pay"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignRight="@+id/seek_my_ok"
+	        android:layout_below="@+id/complex"
+	        android:layout_marginTop="23dp"
+	        android:text="批價說明及付款方式" />
+
+	</RelativeLayout>
+	
+</ScrollView>
