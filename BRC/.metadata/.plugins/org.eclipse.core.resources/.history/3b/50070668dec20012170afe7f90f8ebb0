@@ -1,0 +1,69 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView_seek_my_detail" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:fillViewport="true"
+        android:scrollbars="none"> 
+        
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" >
+
+	    <TextView
+	        android:id="@+id/seek_my_type"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="40dp"
+	        android:text="商品分類" />
+
+	    <TextView
+	        android:id="@+id/seek_my_dateline"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="40dp"
+	        android:text="截止日期" />
+
+	    <TextView
+	        android:id="@+id/seek_my_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="69dp"
+	        android:text="商品名稱" />
+
+	    <TextView
+	        android:id="@+id/seek_my_intro"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="商品介紹" />
+
+	    <TextView
+	        android:id="@+id/seek_my_pay"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="批價說明及付款方式" />
+
+	    <TextView
+	        android:id="@+id/seek_my_limit"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="跟團限制" />
+
+	    <TextView
+	        android:id="@+id/seek_my_note"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="47dp"
+	        android:text="備註" />
+
+	    <Button
+	        android:id="@+id/seek_my_ok"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="34dp"
+	        android:text="更改" />
+	</RelativeLayout>
+	
+</ScrollView>

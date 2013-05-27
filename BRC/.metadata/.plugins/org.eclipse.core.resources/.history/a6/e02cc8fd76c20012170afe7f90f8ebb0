@@ -1,0 +1,25 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView_seek" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:fillViewport="true"
+        android:scrollbars="none"> 
+        
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    > 
+
+    <TableLayout
+        android:id="@+id/table_seek"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" >
+    </TableLayout>
+</RelativeLayout>
+</ScrollView>

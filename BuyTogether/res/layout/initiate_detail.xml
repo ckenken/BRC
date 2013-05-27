@@ -1,7 +1,14 @@
-<RelativeLayout
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView_initiate_detail" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:fillViewport="true"
+        android:scrollbars="none"> 
+        
+<RelativeLayout 
     android:layout_width="fill_parent"
-    android:background="@drawable/bg2"
-    xmlns:android="http://schemas.android.com/apk/res/android" >
+    android:layout_height="fill_parent" >
 
     <TableLayout
         android:id="@+id/table_initiate"
@@ -118,3 +125,4 @@
         android:text="備註" />
 
 </RelativeLayout>
+</ScrollView>

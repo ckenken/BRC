@@ -79,7 +79,7 @@ public class MainActivity extends Activity {
         botton_register = (Button)findViewById(R.id.button_register);
         login_error = (TextView)findViewById(R.id.password_error);    
         
-        intent_register.setClass(MainActivity.this,SeekDetailActivity.class);
+        intent_register.setClass(MainActivity.this,SeekMyActivity.class);
         intent_forget.setClass(MainActivity.this,ForgetActivity.class);
         intent_home.setClass(MainActivity.this,InitiateActivity.class);
 

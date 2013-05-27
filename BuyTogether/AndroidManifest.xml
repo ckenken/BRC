@@ -53,6 +53,7 @@
         <activity android:name="SearchActivity"></activity>
         <activity android:name="MessageActivity"></activity>
         <activity android:name="SeekMyActivity"></activity>
+        <activity android:name="SeekMyDetailActivity"></activity>
     </application>
 
 </manifest>
