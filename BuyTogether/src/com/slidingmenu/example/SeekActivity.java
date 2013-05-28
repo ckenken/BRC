@@ -1,6 +1,7 @@
 package com.slidingmenu.example;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -37,7 +38,13 @@ public class SeekActivity extends BaseActivity {
 		
 		for(int i =0;i<1;i++){
 			TableRow table_row = new TableRow(this);		
+			
 			Button enter = new Button(this);
+			enter.setBackgroundColor(Color.RED);
+			enter.setTextColor(Color.WHITE);
+			enter.setHeight(35);
+			enter.setWidth(100);
+			
 			TextView initiator = new TextView(this);
 			TextView buy = new TextView(this);
 			TextView location = new TextView(this);
@@ -46,6 +53,13 @@ public class SeekActivity extends BaseActivity {
 			TextView temp2 = new TextView(this);
 			TextView temp3 = new TextView(this);
 			TextView temp4 = new TextView(this);		
+			
+			LayoutParams params = enter.getLayoutParams();
+			params.height = 10;
+			//params.width = 30;
+			//params.height = 20;
+			enter.setLayoutParams(params);
+			
 			
 			enter.setText("¶i¤J");
 			table_row.addView(enter);
