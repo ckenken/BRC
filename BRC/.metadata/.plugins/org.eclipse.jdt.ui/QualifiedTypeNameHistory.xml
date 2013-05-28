@@ -1,19 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="android.widget.TextView"/>
-<fullyQualifiedTypeName name="com.example.brc.R.layout"/>
-<fullyQualifiedTypeName name="com.example.brc.R.id"/>
-<fullyQualifiedTypeName name="android.widget.Button"/>
-<fullyQualifiedTypeName name="com.actionbarsherlock.app.SherlockFragmentActivity"/>
-<fullyQualifiedTypeName name="com.actionbarsherlock.app.SherlockActivity"/>
-<fullyQualifiedTypeName name="com.actionbarsherlock.app.SherlockPreferenceActivity"/>
-<fullyQualifiedTypeName name="com.slidingmenu.lib.app.SlidingFragmentActivity"/>
-<fullyQualifiedTypeName name="android.R.drawable"/>
-<fullyQualifiedTypeName name="android.R"/>
-<fullyQualifiedTypeName name="android.R.id"/>
-<fullyQualifiedTypeName name="android.view.ViewGroup.LayoutParams"/>
-<fullyQualifiedTypeName name="com.slidingmenu.example.R.drawable"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="com.slidingmenu.example.HomeActivity"/>
-<fullyQualifiedTypeName name="com.slidingmenu.example.R.id"/>
-</qualifiedTypeNameHistroy>
+<qualifiedTypeNameHistroy/>

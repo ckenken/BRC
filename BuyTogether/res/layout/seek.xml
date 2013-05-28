@@ -1,3 +1,30 @@
+<<<<<<< HEAD
+<ScrollView android:id="@+id/ScrollView_seek" 
+        android:layout_width="wrap_content" android:layout_height="wrap_content" 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/bg2"> 
+
+    <TableLayout
+        android:id="@+id/table_seek"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" >
+    </TableLayout>
+
+
+	<Button android:id="@+id/seekBtIn" android:text="進入"  
+  
+     android:layout_width="fill_parent" android:layout_height="wrap_content"  
+  
+  	android:background="#fd0000"
+  	
+  	android:textStyle="bold"
+  	
+     android:textColor="#ffffff" />  
+=======
 <ScrollView 
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/ScrollView_seek" 
@@ -21,5 +48,6 @@
 	    </TableLayout>
 	    
 	</RelativeLayout>
+>>>>>>> 32cde8044a7b085df14aa213f9e9394df9996800
 	
 </ScrollView>

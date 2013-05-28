@@ -312,11 +312,16 @@ int drawable toucan 0x7f020097
 int drawable turkey 0x7f020098
 int drawable vulture 0x7f020099
 int id ScrollView_initiate 0x7f050041
+<<<<<<< HEAD
+int id ScrollView_seek 0x7f050074
+int id about 0x7f050078
+=======
 int id ScrollView_initiate_detail 0x7f05004a
 int id ScrollView_seek 0x7f050079
 int id ScrollView_seek_detail 0x7f05007b
 int id ScrollView_seek_my_detail 0x7f050086
 int id about 0x7f050095
+>>>>>>> 32cde8044a7b085df14aa213f9e9394df9996800
 int id abs__action_bar 0x7f050025
 int id abs__action_bar_container 0x7f050024
 int id abs__action_bar_subtitle 0x7f050016
@@ -363,9 +368,13 @@ int id button_forget 0x7f050046
 int id button_login 0x7f050045
 int id button_register 0x7f050044
 int id buy_together 0x7f05003c
+<<<<<<< HEAD
+int id contact 0x7f05007a
+=======
 int id clothes 0x7f05008f
 int id complex 0x7f050093
 int id contact 0x7f050097
+>>>>>>> 32cde8044a7b085df14aa213f9e9394df9996800
 int id content_frame 0x7f050037
 int id disableHome 0x7f050009
 int id editText1 0x7f050073
@@ -381,6 +390,12 @@ int id fullscreen 0x7f050013
 int id github_button 0x7f05003f
 int id grid_item_img 0x7f050040
 int id homeAsUp 0x7f050006
+<<<<<<< HEAD
+int id initiate 0x7f05007b
+int id left 0x7f050010
+int id left_right 0x7f05005b
+int id licenses 0x7f050079
+=======
 int id initiate 0x7f050098
 int id initiate_account 0x7f05004b
 int id initiate_dateline 0x7f050050
@@ -397,6 +412,7 @@ int id initiate_type 0x7f05004d
 int id left 0x7f050010
 int id left_right 0x7f05005c
 int id licenses 0x7f050096
+>>>>>>> 32cde8044a7b085df14aa213f9e9394df9996800
 int id listMode 0x7f050002
 int id listView_message 0x7f050059
 int id location 0x7f050078
@@ -404,10 +420,17 @@ int id logoImg 0x7f05003d
 int id logoimg 0x7f050049
 int id mail_error 0x7f05003a
 int id margin 0x7f050012
+<<<<<<< HEAD
+int id menu_frame 0x7f050056
+int id menu_frame_two 0x7f050057
+int id message 0x7f05007d
+int id mode 0x7f05005a
+=======
 int id menu_frame 0x7f050057
 int id menu_frame_two 0x7f050058
 int id message 0x7f05009a
 int id mode 0x7f05005b
+>>>>>>> 32cde8044a7b085df14aa213f9e9394df9996800
 int id normal 0x7f050001
 int id pager 0x7f05005a
 int id password 0x7f050047
@@ -419,6 +442,13 @@ int id register_mail 0x7f05006d
 int id register_ok 0x7f05006e
 int id register_password 0x7f05006a
 int id right 0x7f050011
+<<<<<<< HEAD
+int id row_icon 0x7f05006f
+int id row_title 0x7f050070
+int id scroll_scale 0x7f050063
+int id seek 0x7f05007c
+int id seekBtIn 0x7f050076
+=======
 int id row_icon 0x7f050070
 int id row_title 0x7f050071
 int id scroll_scale 0x7f050064
@@ -441,13 +471,18 @@ int id seek_ok 0x7f050085
 int id seek_pay 0x7f050082
 int id seek_score 0x7f05007d
 int id seek_type 0x7f05007e
+>>>>>>> 32cde8044a7b085df14aa213f9e9394df9996800
 int id selected_view 0x7f050014
 int id shadow_enabled 0x7f050066
 int id shadow_width 0x7f050067
 int id showCustom 0x7f050008
 int id showHome 0x7f050005
 int id showTitle 0x7f050007
+<<<<<<< HEAD
+int id slidingmenumain 0x7f050077
+=======
 int id slidingmenumain 0x7f050094
+>>>>>>> 32cde8044a7b085df14aa213f9e9394df9996800
 int id tabMode 0x7f050003
 int id table_initiate 0x7f050042
 int id table_seek 0x7f05007a
