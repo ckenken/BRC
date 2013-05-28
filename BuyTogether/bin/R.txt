@@ -312,8 +312,16 @@ int drawable toucan 0x7f020097
 int drawable turkey 0x7f020098
 int drawable vulture 0x7f020099
 int id ScrollView_initiate 0x7f050041
+<<<<<<< HEAD
 int id ScrollView_seek 0x7f050074
 int id about 0x7f050078
+=======
+int id ScrollView_initiate_detail 0x7f05004a
+int id ScrollView_seek 0x7f050079
+int id ScrollView_seek_detail 0x7f05007b
+int id ScrollView_seek_my_detail 0x7f050086
+int id about 0x7f050095
+>>>>>>> 32cde8044a7b085df14aa213f9e9394df9996800
 int id abs__action_bar 0x7f050025
 int id abs__action_bar_container 0x7f050024
 int id abs__action_bar_subtitle 0x7f050016
@@ -354,20 +362,27 @@ int id abs__textButton 0x7f050018
 int id abs__title 0x7f050020
 int id abs__up 0x7f05000b
 int id account 0x7f050043
-int id behind_width 0x7f050064
-int id button1 0x7f050055
+int id behind_width 0x7f050065
+int id button1 0x7f050072
 int id button_forget 0x7f050046
 int id button_login 0x7f050045
 int id button_register 0x7f050044
 int id buy_together 0x7f05003c
+<<<<<<< HEAD
 int id contact 0x7f05007a
+=======
+int id clothes 0x7f05008f
+int id complex 0x7f050093
+int id contact 0x7f050097
+>>>>>>> 32cde8044a7b085df14aa213f9e9394df9996800
 int id content_frame 0x7f050037
 int id disableHome 0x7f050009
-int id editText1 0x7f050071
+int id editText1 0x7f050073
 int id edit_query 0x7f05002b
-int id fade_degree 0x7f050068
-int id fade_enabled 0x7f050067
+int id fade_degree 0x7f050069
+int id fade_enabled 0x7f050068
 int id find_password 0x7f05003e
+int id food 0x7f050090
 int id forget_account 0x7f050039
 int id forget_mail 0x7f050038
 int id forget_ok 0x7f05003b
@@ -375,66 +390,115 @@ int id fullscreen 0x7f050013
 int id github_button 0x7f05003f
 int id grid_item_img 0x7f050040
 int id homeAsUp 0x7f050006
+<<<<<<< HEAD
 int id initiate 0x7f05007b
 int id left 0x7f050010
 int id left_right 0x7f05005b
 int id licenses 0x7f050079
+=======
+int id initiate 0x7f050098
+int id initiate_account 0x7f05004b
+int id initiate_dateline 0x7f050050
+int id initiate_intro 0x7f050052
+int id initiate_limit 0x7f050054
+int id initiate_location 0x7f05004e
+int id initiate_name 0x7f050051
+int id initiate_note 0x7f050056
+int id initiate_number 0x7f05004f
+int id initiate_ok 0x7f050055
+int id initiate_pay 0x7f050053
+int id initiate_score 0x7f05004c
+int id initiate_type 0x7f05004d
+int id left 0x7f050010
+int id left_right 0x7f05005c
+int id licenses 0x7f050096
+>>>>>>> 32cde8044a7b085df14aa213f9e9394df9996800
 int id listMode 0x7f050002
-int id listView_message 0x7f050058
-int id location 0x7f050073
+int id listView_message 0x7f050059
+int id location 0x7f050078
 int id logoImg 0x7f05003d
 int id logoimg 0x7f050049
 int id mail_error 0x7f05003a
 int id margin 0x7f050012
+<<<<<<< HEAD
 int id menu_frame 0x7f050056
 int id menu_frame_two 0x7f050057
 int id message 0x7f05007d
 int id mode 0x7f05005a
+=======
+int id menu_frame 0x7f050057
+int id menu_frame_two 0x7f050058
+int id message 0x7f05009a
+int id mode 0x7f05005b
+>>>>>>> 32cde8044a7b085df14aa213f9e9394df9996800
 int id normal 0x7f050001
-int id pager 0x7f050059
+int id pager 0x7f05005a
 int id password 0x7f050047
 int id password_error 0x7f050048
-int id register_account 0x7f05006a
-int id register_again_password 0x7f05006b
-int id register_info 0x7f05006e
-int id register_mail 0x7f05006c
-int id register_ok 0x7f05006d
-int id register_password 0x7f050069
+int id register_account 0x7f05006b
+int id register_again_password 0x7f05006c
+int id register_info 0x7f05006f
+int id register_mail 0x7f05006d
+int id register_ok 0x7f05006e
+int id register_password 0x7f05006a
 int id right 0x7f050011
+<<<<<<< HEAD
 int id row_icon 0x7f05006f
 int id row_title 0x7f050070
 int id scroll_scale 0x7f050063
 int id seek 0x7f05007c
 int id seekBtIn 0x7f050076
+=======
+int id row_icon 0x7f050070
+int id row_title 0x7f050071
+int id scroll_scale 0x7f050064
+int id seek 0x7f050099
+int id seek_account 0x7f05007c
+int id seek_dateline 0x7f05007f
+int id seek_intro 0x7f050081
+int id seek_limit 0x7f050083
+int id seek_my_dateline 0x7f05008b
+int id seek_my_intro 0x7f050091
+int id seek_my_limit 0x7f05008c
+int id seek_my_name 0x7f05008d
+int id seek_my_note 0x7f050089
+int id seek_my_ok 0x7f050088
+int id seek_my_pay 0x7f05008a
+int id seek_my_type 0x7f05008e
+int id seek_name 0x7f050080
+int id seek_note 0x7f050084
+int id seek_ok 0x7f050085
+int id seek_pay 0x7f050082
+int id seek_score 0x7f05007d
+int id seek_type 0x7f05007e
+>>>>>>> 32cde8044a7b085df14aa213f9e9394df9996800
 int id selected_view 0x7f050014
-int id shadow_enabled 0x7f050065
-int id shadow_width 0x7f050066
+int id shadow_enabled 0x7f050066
+int id shadow_width 0x7f050067
 int id showCustom 0x7f050008
 int id showHome 0x7f050005
 int id showTitle 0x7f050007
+<<<<<<< HEAD
 int id slidingmenumain 0x7f050077
+=======
+int id slidingmenumain 0x7f050094
+>>>>>>> 32cde8044a7b085df14aa213f9e9394df9996800
 int id tabMode 0x7f050003
 int id table_initiate 0x7f050042
-int id table_seek 0x7f050075
-int id textView1 0x7f05004a
-int id textView10 0x7f050053
-int id textView11 0x7f050054
-int id textView2 0x7f05004b
-int id textView3 0x7f05004c
-int id textView4 0x7f05004d
-int id textView5 0x7f05004e
-int id textView6 0x7f05004f
-int id textView7 0x7f050050
-int id textView8 0x7f050051
-int id textView9 0x7f050052
-int id touch_above 0x7f05005c
-int id touch_above_full 0x7f05005d
-int id touch_above_margin 0x7f05005e
-int id touch_above_none 0x7f05005f
-int id touch_behind 0x7f050060
-int id touch_behind_full 0x7f050061
-int id touch_behind_margin 0x7f050062
-int id type 0x7f050072
+int id table_seek 0x7f05007a
+int id table_seek_my 0x7f050087
+int id textView1 0x7f050075
+int id textView2 0x7f050076
+int id textView3 0x7f050077
+int id ticket 0x7f050092
+int id touch_above 0x7f05005d
+int id touch_above_full 0x7f05005e
+int id touch_above_margin 0x7f05005f
+int id touch_above_none 0x7f050060
+int id touch_behind 0x7f050061
+int id touch_behind_full 0x7f050062
+int id touch_behind_margin 0x7f050063
+int id type 0x7f050074
 int id useLogo 0x7f050004
 int id wrap_content 0x7f050000
 int integer abs__max_action_buttons 0x7f090000
@@ -482,9 +546,11 @@ int layout row 0x7f030027
 int layout search 0x7f030028
 int layout seek 0x7f030029
 int layout seek_detail 0x7f03002a
-int layout sherlock_spinner_dropdown_item 0x7f03002b
-int layout sherlock_spinner_item 0x7f03002c
-int layout slidingmenumain 0x7f03002d
+int layout seek_my 0x7f03002b
+int layout seek_my_detail 0x7f03002c
+int layout sherlock_spinner_dropdown_item 0x7f03002d
+int layout sherlock_spinner_item 0x7f03002e
+int layout slidingmenumain 0x7f03002f
 int menu main 0x7f0d0000
 int menu sliding 0x7f0d0001
 int string about 0x7f0a0034

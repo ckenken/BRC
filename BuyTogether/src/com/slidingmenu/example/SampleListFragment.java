@@ -22,12 +22,12 @@ public class SampleListFragment extends ListFragment {
 		SampleAdapter adapter = new SampleAdapter(getActivity());
 		//for (int i = 0; i < 5; i++) {
 
-			adapter.add(new SampleItem("訊息", R.drawable.ic_message));
+			//adapter.add(new SampleItem("訊息", R.drawable.ic_message));
 			adapter.add(new SampleItem("主購商品", R.drawable.ic_shopping));
 			adapter.add(new SampleItem("徵求主購", R.drawable.ic_hlepbuy));
 			adapter.add(new SampleItem("商品紀錄", R.drawable.ic_shoppingcar));			
-			adapter.add(new SampleItem("登出", R.drawable.ic_logout));
 			adapter.add(new SampleItem("搜尋", R.drawable.ic_search));
+			adapter.add(new SampleItem("登出", R.drawable.ic_logout));
 
 		//}
 		setListAdapter(adapter);

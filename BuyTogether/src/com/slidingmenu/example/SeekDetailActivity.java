@@ -18,6 +18,7 @@ public class SeekDetailActivity extends BaseActivity {
 	public SeekDetailActivity() {
 		super(R.string.title_bar_content);
 	}
+	
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
