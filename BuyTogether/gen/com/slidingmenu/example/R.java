@@ -1077,7 +1077,7 @@ containing a value of this type.
     public static final class id {
         public static final int ScrollView_initiate=0x7f050041;
         public static final int ScrollView_seek=0x7f050074;
-        public static final int about=0x7f050077;
+        public static final int about=0x7f050078;
         public static final int abs__action_bar=0x7f050025;
         public static final int abs__action_bar_container=0x7f050024;
         public static final int abs__action_bar_subtitle=0x7f050016;
@@ -1124,7 +1124,7 @@ containing a value of this type.
         public static final int button_login=0x7f050045;
         public static final int button_register=0x7f050044;
         public static final int buy_together=0x7f05003c;
-        public static final int contact=0x7f050079;
+        public static final int contact=0x7f05007a;
         public static final int content_frame=0x7f050037;
         public static final int disableHome=0x7f050009;
         public static final int editText1=0x7f050071;
@@ -1139,10 +1139,10 @@ containing a value of this type.
         public static final int github_button=0x7f05003f;
         public static final int grid_item_img=0x7f050040;
         public static final int homeAsUp=0x7f050006;
-        public static final int initiate=0x7f05007a;
+        public static final int initiate=0x7f05007b;
         public static final int left=0x7f050010;
         public static final int left_right=0x7f05005b;
-        public static final int licenses=0x7f050078;
+        public static final int licenses=0x7f050079;
         public static final int listMode=0x7f050002;
         public static final int listView_message=0x7f050058;
         public static final int location=0x7f050073;
@@ -1152,7 +1152,7 @@ containing a value of this type.
         public static final int margin=0x7f050012;
         public static final int menu_frame=0x7f050056;
         public static final int menu_frame_two=0x7f050057;
-        public static final int message=0x7f05007c;
+        public static final int message=0x7f05007d;
         public static final int mode=0x7f05005a;
         public static final int normal=0x7f050001;
         public static final int pager=0x7f050059;
@@ -1168,14 +1168,15 @@ containing a value of this type.
         public static final int row_icon=0x7f05006f;
         public static final int row_title=0x7f050070;
         public static final int scroll_scale=0x7f050063;
-        public static final int seek=0x7f05007b;
+        public static final int seek=0x7f05007c;
+        public static final int seekBtIn=0x7f050076;
         public static final int selected_view=0x7f050014;
         public static final int shadow_enabled=0x7f050065;
         public static final int shadow_width=0x7f050066;
         public static final int showCustom=0x7f050008;
         public static final int showHome=0x7f050005;
         public static final int showTitle=0x7f050007;
-        public static final int slidingmenumain=0x7f050076;
+        public static final int slidingmenumain=0x7f050077;
         public static final int tabMode=0x7f050003;
         public static final int table_initiate=0x7f050042;
         public static final int table_seek=0x7f050075;

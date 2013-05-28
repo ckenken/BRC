@@ -13,4 +13,15 @@
         android:layout_marginLeft="10dp" >
     </TableLayout>
 
+
+	<Button android:id="@+id/seekBtIn" android:text="進入"  
+  
+     android:layout_width="fill_parent" android:layout_height="wrap_content"  
+  
+  	android:background="#fd0000"
+  	
+  	android:textStyle="bold"
+  	
+     android:textColor="#ffffff" />  
+	
 </ScrollView>

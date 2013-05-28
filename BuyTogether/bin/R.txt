@@ -313,7 +313,7 @@ int drawable turkey 0x7f020098
 int drawable vulture 0x7f020099
 int id ScrollView_initiate 0x7f050041
 int id ScrollView_seek 0x7f050074
-int id about 0x7f050077
+int id about 0x7f050078
 int id abs__action_bar 0x7f050025
 int id abs__action_bar_container 0x7f050024
 int id abs__action_bar_subtitle 0x7f050016
@@ -360,7 +360,7 @@ int id button_forget 0x7f050046
 int id button_login 0x7f050045
 int id button_register 0x7f050044
 int id buy_together 0x7f05003c
-int id contact 0x7f050079
+int id contact 0x7f05007a
 int id content_frame 0x7f050037
 int id disableHome 0x7f050009
 int id editText1 0x7f050071
@@ -375,10 +375,10 @@ int id fullscreen 0x7f050013
 int id github_button 0x7f05003f
 int id grid_item_img 0x7f050040
 int id homeAsUp 0x7f050006
-int id initiate 0x7f05007a
+int id initiate 0x7f05007b
 int id left 0x7f050010
 int id left_right 0x7f05005b
-int id licenses 0x7f050078
+int id licenses 0x7f050079
 int id listMode 0x7f050002
 int id listView_message 0x7f050058
 int id location 0x7f050073
@@ -388,7 +388,7 @@ int id mail_error 0x7f05003a
 int id margin 0x7f050012
 int id menu_frame 0x7f050056
 int id menu_frame_two 0x7f050057
-int id message 0x7f05007c
+int id message 0x7f05007d
 int id mode 0x7f05005a
 int id normal 0x7f050001
 int id pager 0x7f050059
@@ -404,14 +404,15 @@ int id right 0x7f050011
 int id row_icon 0x7f05006f
 int id row_title 0x7f050070
 int id scroll_scale 0x7f050063
-int id seek 0x7f05007b
+int id seek 0x7f05007c
+int id seekBtIn 0x7f050076
 int id selected_view 0x7f050014
 int id shadow_enabled 0x7f050065
 int id shadow_width 0x7f050066
 int id showCustom 0x7f050008
 int id showHome 0x7f050005
 int id showTitle 0x7f050007
-int id slidingmenumain 0x7f050076
+int id slidingmenumain 0x7f050077
 int id tabMode 0x7f050003
 int id table_initiate 0x7f050042
 int id table_seek 0x7f050075
